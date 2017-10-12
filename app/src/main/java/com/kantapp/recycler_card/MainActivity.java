@@ -94,7 +94,7 @@ class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
         return countries.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
+    public static class ViewHolder extends RecyclerView.ViewHolder{
         private TextView tv_country;
         public ViewHolder(View view) {
             super(view);
